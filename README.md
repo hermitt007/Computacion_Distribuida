@@ -1,4 +1,5 @@
 # Computacion_Distribuida
+---
 
 El cliente usa **dos tipos de conexión**:
 - **Puerto 21 (control):** para enviar comandos y recibir respuestas del servidor.
@@ -22,16 +23,17 @@ Implementación de comandos básicos FTP:
 - **Compatibilidad con servidores estándar:** probado con `vsftpd` y `proftpd`.
 
 ---
-## ⚙️ Compilación
+##  Compilación
 
 Ejecuta en la terminal:
 
 make
 ./ViteS-ClienteFTP
 
+---
 Nota: En modo PASV, el servidor abre un puerto de datos aleatorio (>1024).
 
-📘 Referencias
+ Referencias
 
 - RFC 959 — File Transfer Protocol (FTP):
 https://datatracker.ietf.org/doc/html/rfc959
